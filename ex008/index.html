@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+</head>
+<body>
+    <h1>Formatações importantes</h1>
+
+    <h2>Negrito/destaque</h2>
+    <p>
+        Para dar destaque a um trecho, <strong>utilizamos a marcação strong</strong>. Além do texto ficar vizualmente em negrito,
+        estamos indicando um destaque. Aquele trecho ganha um sentido de destaque no texto.
+    </p>
+    <p>Para deixar o texto apenas em negrito, <b>usamos a tag b</b>. Essa marcação tratá apenas da forma e por isso não é recomendada a sua utilização. Mudanças na forma do texto são feitas com CSS.</p>
+
+    <h2>Itálico/ênfase</h2>
+    <p>
+        Para dar ênfase a um trecho, <em>utilizamos a tag en</em>. Além do texto ficar em itálico vizualmente, estamos indicado que aquele trecho tem um sentido de ênfase no texto.
+    </p>
+    <p>Para deixar um texto apenas em itálico,<i> utilizados a tag i.</i> Nesse caso, estaremos apenas mudando a forma e, por isso, essa marcação não é recomendada. Para mudar a forma do texto, utilizamos CSS.</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: lime;">um texto marcado</mark>, usando a tag mark</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>estamos criando um<big> texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para ele ser lido, mas não considerado</p>
+
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para indicar que ele foi adiconado recentemente.</p>
+    <p>A tag u deixa o <u>texto sublinhado,</u> mas trata da forma</p>
+
+    <h2>Texto sobrescrito e subescrito</h2>
+    <p>x<sup>2</sup> + 3</p>
+    <p>H<sub>2</sub>O</p>
+
+    <h2>Código-fonte/pŕe-formatação</h2>
+    <p>O comando <code>Document.getElementById()</code> é escrito na lingaugem JS</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num%2 == 0:
+        print('é par')
+    else:
+        print('é ímpar')
+    </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <h3>Citações simples</h3>
+    <p>Como diria um pai de um amigo, <q>o computador é um burro muito rápido</q></p> <!--Não é simplesmente colocar o textp em aspas, é dizer que ele é uma citação. Dar um sentido de citação-->
+    <h3>Citações completas</h3>
+    <p>Segundo ..., no seu livro:</p>
+    <blockquote cite="https">
+        a diferença entre elementos inline e um bloco de texto é importante.  Os elementos htmç neste capítulo
+        descrevem blocos de texto.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>estou estudadno <abbr title="Hypertext Markup Language">HTML</abbr></p>
+</body>
+</html>

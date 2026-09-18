@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color:darkblue;
+            font-weight: bold;
+        }
+        a:active {
+            color: darkkhaki;
+        }
+
+        a::before {
+            content: '➡️ ';
+            
+        }
+
+        a::after {
+            content: ' ⬅️';
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+
+    <ul>
+        <li><a href="#">Repositório github</a></li>
+        <li><a href="#">Canal do youtube</a></li>
+        <li><a href="#">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

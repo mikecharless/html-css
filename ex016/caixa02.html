@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+
+        header > h1 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        
+        nav {
+            padding: 4px;
+            background-color: rgba(173, 216, 230, 0.671); 
+            box-shadow: 2px 3px 0px 0px rgba(0, 0, 0, 0.349);
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight:700;
+            padding: 3px;
+            margin: 2px 4px;
+        }
+
+        a:hover {
+            font-weight:900;
+            background-color:aquamarine;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 30px;
+            
+        }
+
+        article {
+            background-color:rgba(173, 216, 230, 0.671);
+            padding:1px;
+        }
+
+        article > aside {
+            background-color: rgba(141, 178, 190, 0.548);
+        }
+
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Exemplos de grouping tags como header, main e footer. Cabelho, parte principal e rodapé, respectivamente. 
+    Agrupam, organizam e estruturam com signifcado o código-->
+    <header>
+        <h1>Meu Perfil</h1>
+        <!--tag nav usada para montar o menu do site, onde colocamos os links-->
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <!--tag section usada também para agrupar e organizar, tal qual a tag div-->
+        <section>
+            <article>
+                <h2>Novidades do site</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente nemo beatae vero odit? Consequuntur possimus ad similique hic vitae porro ipsam sint recusandae voluptates dolorem. Voluptatem suscipit neque eius sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequuntur laudantium nesciunt odio, ratione deserunt atque quaerat harum accusantium facere, autem nostrum fuga nisi amet aspernatur sequi, assumenda praesentium nihil.</p>
+                <aside>
+                    <p>Artigo escrito por Mike Charles</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido por Mike Charles
+        </p>
+    </footer>
+</body>
+</html>

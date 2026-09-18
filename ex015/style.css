@@ -1,0 +1,38 @@
+/*Regra para trabalhar com carecteres com acento */
+@charset "UTF-8";
+
+body {
+    background-color :#d7ffd9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    background-color:#274428;
+    color: white;
+}
+
+h1 {
+    color: #274428;
+}
+
+h2 {
+    color: #27442f;
+}
+
+.basico {
+    color: #388649;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #74692e;
+}
+
+.avancado {
+    color :#7a3535
+}
+
+.destaque {
+    background-color: #a89c5881;
+}

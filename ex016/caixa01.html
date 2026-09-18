@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            color: black;
+
+            /*border-width: 5px;
+            border-style: solid;
+            border-color:darkblue;*/
+            /*shorthand border*/
+            border: 5px solid darkblue;
+            
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+            /*shorthand padding */
+            padding: 10px 10px 10px 10px;
+
+            /*margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;*/
+            /*shorthand margin. Para centralizar podemos usar o valor auto nas margin laterias */
+            margin: 10px auto;
+
+            /*outline-width: 10px;
+            outline-style: double;
+            outline-color: blueviolet;*/
+            /*shorthand outline */
+            outline: 5px double blueviolet;
+
+            /*a propriedade display permite alterar o tipo de caixa: inline-level ou box-level */
+            display: block;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Paragráfos também são caixas box-level. Uma caixa box-level começa no início de uma linha e ocupa toda a tela ou toda a viewport. Porém, um <a href="#">link</a> é uma caixa do tipo inline-level. Observe na sua ferramenta do desenvolvedor as diferenças dessas caixas.</p>
+    <p>Uma caixa box-level possui sua configuração display em block. Enquanto que a inline-level possui o display: inline.</p>
+</body>
+</html>
