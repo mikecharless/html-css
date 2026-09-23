@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #023BE6, #01258F, #011C6B);
+    /*padding vertical em vez de min-height é melhor para definir uma altura que depende do conteúdo sem precisar forçar uma altura mínima*/
+    padding: 20px 0;
+
+}
+
+header > h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-top: 10px;
+}
+
+header > p {
+    font-style: italic;
+    margin: 20px 0 0;
+    
+}
+
+nav {
+    background-color: #011C6B;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+ 
+    padding: 10px;
+    margin-right: 5px;
+
+    font-weight: bold;
+    border-radius: 5px;
+    /*colocar o transition no estado nominal faz a transição funcionar tanto na entrada quanto na saída do mouse*/
+    transition: background-color 0.5s;
+ 
+}
+
+nav a:hover {
+    background-color: #023BE6;
+    
+}
